@@ -1,7 +1,6 @@
 Fr 07 Mär 2014 11:55:37 CET 
 ===========================
 Sicherungen ausser Haus synchronisieren!
-sudo apt-get install git-gui 
 
 Fr 07 Mär 2014 09:57:35 CET 
 ===========================
@@ -18,28 +17,19 @@ git config --global pack.threads "0"
 
 Fr 07 Mär 2014 09:14:51 CET 
 ===========================
-Listenansicht einstellen
-Drucker einrichten ohne proprietären Treiber
 Druckqualität setzen
 Logical Volume verkleinern
 # http://www.tutonics.com/2012/11/ubuntu-lvm-guide-part-1.html
 sudo lvreduce --resizefs --size 200G /dev/ubuntu-vg/root
 sudo lvcreate --size 2G -s -n rootsnap /dev/ubuntu-vg/root
-Xsane erkennt Scanner ohne proprietären Treiber nicht
 
 Do 06 Mär 2014 19:38:44 CET 
 ===========================
 Clonezilla Problem lösen
-alle Pakete mit skript installieren
 von LVM Snapshot in Ubuntu 14.04 booten
 
 Do 06 Mär 2014 17:18:27 CET 
 ===========================
-Shrink logical volume root -> tutonics lvm part 1
-sudo apt-get install libifd-cyberjack6
-libchipcard-data libchipcard-tools libchipcard-libgwenhywfar60-plugins 
-gnucash
-
 sudo apt-get install unattended-upgrades
 sudo dpkg-reconfigure unattended-upgrades
 
@@ -47,25 +37,16 @@ sudo ./ubuntu-13.10-postinstall.py -c mycfg64.cfg
 
 Do 06 Mär 2014 16:45:49 CET 
 ===========================
-*gnucash
-*hbci
 *finance-quote
-*druckertreiber
-*encfs
 *emails
 *bookmarks
-**lvm snapshot
 *clonezilla
-*gnumeric
 dirvish
 sleepscript
 owncloud adapter
 lightning
-shotwell
 bittorrent sync
 xsane OTR
-
-Briefvorlage
 android tools adb, fastboot
 
 
