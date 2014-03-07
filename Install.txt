@@ -1,0 +1,80 @@
+Fr 07 Mär 2014 09:57:35 CET 
+===========================
+Erfahrungen aus Crash
+Alle proprietären Programme ind Treiber vor Upgrade deinstallieren
+(Druckertreiber)
+
+sudo add-apt-repository -y "deb http://www.bchemnet.com/suldr/ debian extra"
+sudo wget -O - http://www.bchemnet.com/suldr/suldr.gpg | sudo apt-key add -
+sudo apt-get install suld-driver-4.01.17
+
+Fr 07 Mär 2014 09:14:51 CET 
+===========================
+Listenansicht einstellen
+Drucker einrichten ohne proprietären Treiber
+Druckqualität setzen
+Logical Volume verkleinern
+# http://www.tutonics.com/2012/11/ubuntu-lvm-guide-part-1.html
+sudo lvreduce --resizefs --size 200G /dev/ubuntu-vg/root
+sudo lvcreate --size 2G -s -n rootsnap /dev/ubuntu-vg/root
+Xsane erkennt Scanner ohne proprietären Treiber nicht
+
+Do 06 Mär 2014 19:38:44 CET 
+===========================
+Clonezilla Problem lösen
+alle Pakete mit skript installieren
+von LVM Snapshot in Ubuntu 14.04 booten
+
+Do 06 Mär 2014 17:18:27 CET 
+===========================
+Shrink logical volume root -> tutonics lvm part 1
+sudo apt-get install libifd-cyberjack6
+libchipcard-data libchipcard-tools libchipcard-libgwenhywfar60-plugins 
+gnucash
+
+sudo apt-get install unattended-upgrades
+sudo dpkg-reconfigure unattended-upgrades
+
+sudo ./ubuntu-13.10-postinstall.py -c mycfg64.cfg
+
+Do 06 Mär 2014 16:45:49 CET 
+===========================
+*gnucash
+*hbci
+*finance-quote
+*druckertreiber
+*encfs
+*emails
+*bookmarks
+**lvm snapshot
+*clonezilla
+*gnumeric
+dirvish
+sleepscript
+owncloud adapter
+lightning
+shotwell
+bittorrent sync
+xsane OTR
+
+Briefvorlage
+android tools adb, fastboot
+
+
+==
+browserplugins
+firewall
+
+Do 06 Mär 2014 13:18:41 CET 
+===========================
+sudo apt-get install git
+
+# http://debianhelp.wordpress.com/2013/11/19/to-do-list-after-installing-ubuntu-13-10-aka-saucy-salamander-os-2/
+
+# Links zu Ubuntuseiten
+# Magnetic shredder
+# Grub Customizer
+
+# git colors übernehmen
+
+(Gnome Session Flashback)
